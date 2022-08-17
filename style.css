@@ -74,6 +74,14 @@ html{
 
 /*  CAROUSEL */
 
+
+.mobile{
+    display: none;
+}
+.desktop{
+    display: block;
+}
+
 .carousel-control-next-icon,
 .carousel-control-prev-icon{
 
@@ -201,6 +209,15 @@ footer a:hover{
 
 
 
+footer div:nth-child(2){
+    text-align: center;
+}
+footer div:nth-child(3){
+    text-align: right;
+}
+
+
+
 
 
 /*   RESPONSIVE */
@@ -215,5 +232,25 @@ footer a:hover{
     .img-nosotros {
         margin-bottom: 2em;
     }
+
+
+    footer div{
+        text-align:center !important;
+    }
+    
+    .mobile{
+        display: block;
+    }
+    .desktop{
+        display: none;
+    }
+
+    .carousel-item{
+        height: 200px !important;
+        border-radius: 1em;
+    }
+    
+
+
     
   }
