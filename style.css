@@ -43,6 +43,10 @@ footer{
     font-family: 'GilroyM' !important;
 }
 
+.container-img h2{
+    text-shadow: 3px 3px 10px black !important;
+}
+
 
 /**navbar**/
 .bg-navbar{
