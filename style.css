@@ -9,8 +9,39 @@ html{
     
 }
 
-/*FONTS*/
 
+/*FONTS*/
+@font-face {
+    font-family: 'GilroyB';
+    src: url("./fonts/Gilroy-Bold.ttf");
+}
+@font-face {
+    font-family: 'GilroyT';
+    src: url("./fonts/Gilroy-Light.ttf");
+}
+@font-face {
+    font-family: 'GilroyM';
+    src: url("./fonts/Gilroy-Medium.ttf");
+}
+
+
+h2{
+    font-family: 'GilroyB' !important;
+}
+
+nav li a{
+    font-family: 'GilroyM' !important;
+}
+footer{
+    font-family: 'GilroyT' !important;
+}
+
+.img-nosotros p{
+    font-family: 'GilroyT' !important;
+}
+.img-nosotros p span{
+    font-family: 'GilroyM' !important;
+}
 
 
 /**navbar**/
