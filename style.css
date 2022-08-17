@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+/**navbar**/
+.bg-navbar{
+    background-color: black;
+}
+
+.navbar a{
+    color: white !important;
+}
+
+.navbar a:hover{
+    color: #00E5E0 !important;
+}
+
+
+
+/**header fondo imagen**/
+.container-img{
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    height: 500px;
+
+    background-image: url('./img/fondo.png');
+    background-position: center;
+    background-size: cover;
+
+}
+
+.container-img h2{
+    font-size: 3em;
+    color: #fff;
+}
+
+.container-img h2 span{
+    color: #DB1864;
+}
+
+
+
+/**nosotros**/
+
+.container-nosotros{
+    background-color: #121212;
+
+}
+.container-nosotros h2{
+    padding: 1em 0;
+    color: #fff;
+}
+
+.img-nosotros p span{
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #F5B41C;
+}
+.img-nosotros p {
+    padding-top: 1em;
+    color: #fff;
+}
+
+
+/*  CAROUSEL */
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+
+    border: 6px solid black;
+    position: relative;
+    top: -25px;
+    background-color: black;
+    border-radius: 50%;
+
+}
+
+.w-30{
+    width: 30%;
+}
+
+
+iframe{
+    border-radius: 1em;
+}
+
+
+/**vfx**/
+
+.container-vfx{
+    background-image: url('./img/vfx.PNG');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.container-vfx h2{
+    padding: 1em 0;
+    color: #fff;
+}
+.carousel-item {
+    
+display: flex;
+}
+
+.carousel-item img{
+    justify-content: center;
+}
+
+
+/**3d**/
+
+.container-3d{
+    background-image: url('./img/3d.PNG');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.container-3d h2{
+    padding: 1em 0;
+    color: #fff;
+}
+
+/**dg**/
+
+.container-dg{
+    background-image: url('./img/dg.PNG');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.container-dg h2{
+    padding: 1em 0;
+    color: #fff;
+}
+
+
+
+/**web**/
+
+.container-web{
+    background-image: url('./img/web.PNG');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.container-web h2{
+    padding: 1em 0;
+    color: #fff;
+}
+
+
+
+
+
+/**pub**/
+
+.container-pub{
+    background-image: url('./img/campa.png');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.container-pub h2{
+    padding: 1em 0;
+    color: #fff;
+}
+
+
+
+
+/**footer**/
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    color: #DB1864;
+}
+
+
+
+
+
+/*   RESPONSIVE */
+
+@media (max-width: 600px) {
+   
+    .container-img h2{
+        text-align: center;
+        font-size: 2.5em;
+    }
+
+    .img-nosotros {
+        margin-bottom: 2em;
+    }
+    
+  }
