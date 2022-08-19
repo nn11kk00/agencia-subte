@@ -47,14 +47,30 @@ footer{
     text-shadow: 3px 3px 10px black !important;
 }
 
+/**1ros "cambios"**/
+.nosotros-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.navbar img{
+    width: 80%;
+}
+
+footer img:nth-child(1){
+    width: 80px;
+}
+
 
 /**navbar**/
 .bg-navbar{
     background-color: black;
 }
 
-.navbar a{
+.navbar li a{
     color: white !important;
+    padding: 8px 0px 8px 16px !important;
 }
 
 .navbar a:hover{
@@ -85,6 +101,8 @@ footer{
 .container-img h2 span{
     color: #DB1864;
 }
+
+
 
 
 
@@ -254,12 +272,6 @@ footer a:hover{
 
 
 
-footer div:nth-child(2){
-    text-align: center;
-}
-footer div:nth-child(3){
-    text-align: right;
-}
 
 
 
@@ -271,7 +283,22 @@ footer div:nth-child(3){
 
 @media (min-width: 601px) {
    
- 
+   /*CAMBIOS*/
+   footer .row div{
+    height: 3em !important;
+    display: flex;
+    align-items: center; 
+}
+
+footer .row div:nth-child(2){
+    justify-content: center;
+}
+
+footer .row div:nth-child(3){
+    justify-content: end;
+}
+   /**/
+
 
     .modal-fullscreen .modal-content{
         margin: 0 auto;
@@ -285,6 +312,30 @@ footer div:nth-child(3){
 
 
 @media (max-width: 600px) {
+
+    /**nosotros con "cambios"**/
+.nosotros-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer .row{
+    padding:  1em 0;
+}
+
+
+footer .row div{
+    height: 3em !important;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+
+}
+
+
+
+    /****/
    
     .container-img h2{
         text-align: center;
@@ -296,9 +347,6 @@ footer div:nth-child(3){
     }
 
 
-    footer div{
-        text-align:center !important;
-    }
     
     .mobile{
         display: block;
