@@ -92,16 +92,20 @@ footer img:nth-child(1){
     position:relative;
 
 
-    animation: cambiar 10s ease infinite;
+    animation: cambiar 16s ease infinite;
 
 }
 
 @keyframes cambiar{
     
-    0%{background-position: 0% 50%;}
-    50%{background-position: 100% 50%;}
-    100%{background-position: 0% 50%;}
+    0%{background-position: left top;}
+    25%{background-position:  bottom;}
+    50%{background-position: right top;}
+    75%{background-position:  bottom;}
+    100%{background-position: left top;}
 }
+
+
 
 
 
