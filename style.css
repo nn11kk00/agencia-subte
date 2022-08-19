@@ -48,6 +48,13 @@ footer{
 }
 
 /**1ros "cambios"**/
+.modal-fullscreen .modal-content{
+   
+    background-color: #121212;
+    color: white;
+}
+
+
 .nosotros-div{
     display: flex;
     flex-wrap: wrap;
@@ -327,6 +334,8 @@ footer .row div:nth-child(3){
         margin: 0 auto;
         height: auto !important;
         width: 50% !important;
+        background-color: #121212;
+        color: white;
     }
     
   }
@@ -388,4 +397,19 @@ footer .row div{
 
 
     
+  }
+
+
+
+
+
+
+
+
+
+
+  /*TESTEO*/
+
+  [type=button]:not(:enabled), [type=reset]:not(:enabled), [type=submit]:not(:enabled), button:not(:enabled){
+    color: red !important;
   }
