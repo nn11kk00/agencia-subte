@@ -63,6 +63,9 @@ footer img:nth-child(1){
 }
 
 
+
+
+
 /**navbar**/
 .bg-navbar{
     background-color: black;
@@ -98,11 +101,11 @@ footer img:nth-child(1){
 
 @keyframes cambiar{
     
-    0%{background-position: left top;}
-    25%{background-position:  bottom;}
-    50%{background-position: right top;}
-    75%{background-position:  bottom;}
-    100%{background-position: left top;}
+    0%{background-position: left bottom;}
+    25%{background-position:  top;}
+    50%{background-position: right bottom;}
+    75%{background-position:  top;}
+    100%{background-position: left bottom;}
 }
 
 
@@ -322,7 +325,7 @@ footer .row div:nth-child(3){
 
     .modal-fullscreen .modal-content{
         margin: 0 auto;
-        height: 70% !important;
+        height: auto !important;
         width: 50% !important;
     }
     
@@ -373,11 +376,6 @@ footer .row div{
     }
     .desktop{
         display: none;
-    }
-
-    .carousel-item{
-        height: 200px !important;
-        border-radius: 1em;
     }
 
 
