@@ -6,7 +6,13 @@
 
 html {
   font-family: Arial, Helvetica, sans-serif;
+  cursor: url('./img/cursor_2.png'), pointer;
+}
 
+a:hover,
+button:hover,
+span:hover {
+  cursor: url('./img/cursor-link.png'), pointer;
 }
 
 
