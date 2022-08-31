@@ -16,6 +16,14 @@
 
 
 
+@media (min-width: 601px) {
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    width: 5% !important;
+  }
+
+}
 
 /*vimeo*/
 
