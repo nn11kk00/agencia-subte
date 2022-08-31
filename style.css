@@ -5,6 +5,15 @@
 }
 
 
+/*CAMBIOS CARROUSEL*/
+
+.carousel-control-next:focus,
+.carousel-control-next:hover,
+.carousel-control-prev:focus,
+.carousel-control-prev:hover {
+  opacity: 0.5 !important;
+}
+
 /*vimeo*/
 
 .video_wrapper {
