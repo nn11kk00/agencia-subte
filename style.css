@@ -4,6 +4,20 @@
 
 }
 
+
+/*vimeo*/
+
+.video_wrapper {
+  width: 100% !important;
+  background-color: #121212 !important;
+
+}
+
+.video_wrapper iframe {
+  border-radius: 0px !important;
+}
+
+/**/
 html {
   font-family: Arial, Helvetica, sans-serif;
   cursor: url('./img/cursor_2.png'), pointer;
