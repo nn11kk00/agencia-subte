@@ -25,6 +25,15 @@
 
 }
 
+@media (max-width: 600px) {
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    width: 10% !important;
+  }
+
+}
+
 /*vimeo*/
 
 .video_wrapper {
