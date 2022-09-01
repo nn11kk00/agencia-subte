@@ -278,10 +278,9 @@ footer img:nth-child(1) {
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
 
-  border: 6px solid black;
   position: relative;
   top: -25px;
-  background-color: black;
+  background-color: none;
   border-radius: 50%;
 
 }
@@ -501,7 +500,14 @@ footer a:hover {
   }
 
 
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
 
+    border: 6px solid black;
+    background-color: black;
+
+
+  }
 
 }
 
