@@ -158,15 +158,49 @@
 
       <div class="py-5 col-12 me-auto ms-auto col-md-11 ">
 
-
-        <div style="padding:56.25% 0 0 0;position:relative;"><iframe id="projectplayer"
-            src="https://player.vimeo.com/video/745021376?h=6096876aef"
+        <div id="div-iframe" style="padding:0 0 0 0;position:relative;">
+          <a href="#" onclick="ocultar()">
+            <img id="img-reel" class="img-fluid" src="/img/reel-play.JPG" alt="">
+          </a>
+          <iframe id="projectplayer" src="https://player.vimeo.com/video/745021376?h=6096876aef"
             style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
-            allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
+            allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+
+
+
+          </iframe>
+
+
+        </div>
         <script src="https://player.vimeo.com/api/player.js"></script>
+        <script>
+          var reel = document.getElementById("img-reel").style.display = 'block';
+          var iframe = document.getElementById("projectplayer").style.display = 'none';
+
+          function ocultar() {
+            var reel = document.getElementById("img-reel").style.display = 'none';
+            var iframe = document.getElementById("projectplayer").style.display = 'block';
+
+            var divIframe = document.getElementById("div-iframe").style.padding = '50% 0 0 0';
+            return
+          }
+
+
+        </script>
+
 
 
       </div>
+
+
+
+
+
+
+
+
+
+
 
     </div>
 
@@ -915,7 +949,7 @@
         <div class="modal-body text-center">
 
           <div style="padding:56.25% 0 0 0;position:relative;"><iframe
-              src="https://player.vimeo.com/video/740604004?h=76dfd4a721&loop=1&title=0&byline=0&portrait=0"
+              src="https://player.vimeo.com/video/745422564?h=76dfd4a721&loop=1&title=0&byline=0&portrait=0"
               style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0"
               allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div>
           <script src="https://player.vimeo.com/api/player.js"></script>
