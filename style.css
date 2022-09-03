@@ -42,6 +42,13 @@
   
 }
 
+/*CAMBIAS ANCLAJE MENU FIJO QUEDA SOBRE h2*/
+#nosotros,#vfx,.d3,#dg,#web,#campa{
+  padding-top: 25px !important;
+}
+
+
+
 /*CAMBIOS CARROUSEL*/
 
 .carousel-control-next:focus,
