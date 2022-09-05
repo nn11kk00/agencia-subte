@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <!-- meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" type="image/x-icon" href="/img/favicon-logo.png">
+
+  <!-- css -->
+  <link rel="stylesheet" href="/style.css">
+
+
+  <!-- cdn bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <title>Presentacion Idea Subte</title>
+
+
+</head>
+
+<body class="bg-dark">
+
+
+
+<div class="container text-white">
+
+<p>
+<strong>IDEA UNITY</strong>
+<br><br>
+<strong>Objetivo:</strong> Lograr recorrer todas las áreas del lugar para poder desbloquear el mapa completo. Transmitir la sensación de conectividad entre todos los puntos.
+<br><br>
+<strong>Dinámica:</strong> Seguir los puntos que van a estar esparcidos por el entorno. 
+<br><br>
+<strong>Storytelling:</strong><br>
+Comienza el individuo en un entorno totalmente oscuro, sin ver nada a su alrededor. Se logra ver un punto de color Naranja que, al acercarse, este mismo “huye”.
+El punto en cuestión deja una estela de color que nos va guiando hacia donde debemos ir. Tras seguir su trayecto, el punto se detiene, y se enciende un video en frente del individuo.
+<br><br>
+Este video será el manifiesto, el cual al terminar iluminará todo el lugar. Cuando esto suceda, se podra notar que alrededor del individuo aparecen nuevos puntos, de color Azul, Amarillo, Verde y Fucsia. Cada uno de estos puntos guiará al individuo hacia diferentes secciones del lugar, en donde se encontrará con la sala del 3D, la del Diseño Gráfico, VFX y Motion Graphics, Juegos, y, webs y apps.
+<br><br>
+El punto Fucsia, dirigirá al individuo creando un trayecto del mismo color, donde al seguirlo deberá pasar por distintos obstáculos en 3D (escaleras, saltar para no caer en un precipicio, etc). Estos serán indicios para darse cuenta de que nos dirigimos a la sección 3D. En la misma, una habitación con los proyectos en forma de escultura podrán ser visualizados.
+<br><br>
+El individuo deberá recorrer el trayecto marcado para retomar al punto inicial, donde se encuentran los demás colores, para continuar descubriendo el entorno.
+<br><br>
+El color Amarillo trazará, de la misma manera, un trayecto donde en el camino se podrá notar carteles de publicidad callejera con trabajos de diseño grafico de la agencia. En un costado, habrá un spray de pintura, que interactuara con los carteles. Siguiendo el trayecto, finaliza en una habitación en la que se mostrarán los proyectos en forma de cuadro sobre la pared para su visualización.
+<br><br>
+De la misma manera que antes, se deberá volver a recorrer el trayecto trazado para retomar al punto inicial.
+<br><br>
+El color Verde guiará un camino hacia la sección de webs, apps y juegos. En el camino, el individuo deberá resolver pequeños puzzles hasta llegar al destino. El mismo será una habitación en donde las páginas web y las apps se proyectan sobre la pared, mientras que los juegos se reproducen en máquinas de arcade.
+<br><br>
+Una vez que el individuo complete todos los trayectos, todas las habitaciones con sus respectivas secciones, se conectarán con un color secundario, mientras que las líneas del trayecto, brillarán aún más. Cuando el individuo regrese al punto inicial, en el lugar se encontrará una imagen en el mismo lugar donde se visualizó el manifiesto, en donde se agradezca que haya compartido la experiencia con nosotros.
+</p>
+
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-12"><img src="/img/logo.png" alt="" class="img-fluid logo"></div>
+        <div class="col-md-4 col-12">&copy; Copyright Agencia Subte 2022</div>
+        <div class="col-md-4 col-12">
+
+
+          <a href="https://www.instagram.com/agencia_subte" target="_blank"> <svg xmlns="http://www.w3.org/2000/svg"
+              width="18px" height="18px" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+              <path
+                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+            </svg></a>
+            <a style="filter: brightness(0) invert(1);" href="https://www.artstation.com/agenciasubte" target="_blank"><img class="logo" style="width: 18px; margin-left:10px" src="/img/art.png" ></a>
+        </div>
+
+
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- script de bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!---->
+
+</body>
+
+</html>
