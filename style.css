@@ -398,7 +398,7 @@ iframe {
 
 
 
-/**web**/
+/**"web" APPS**/
 
 .container-web {
   background-image: url('./img/web.PNG');
@@ -408,6 +408,20 @@ iframe {
 }
 
 .container-web h2 {
+  padding: 1em 0;
+  color: #fff;
+}
+
+/**web2**/
+
+.container-web-2 {
+  background-image: url('./img/BG_DesarrolloWeb.jpg');
+  background-size: cover;
+  background-position: center;
+
+}
+
+.container-web-2 h2 {
   padding: 1em 0;
   color: #fff;
 }
