@@ -8,3 +8,10 @@ function ocultar() {
   var divIframe = document.getElementById("div-iframe").style.padding = '50% 0 0 0';
   return
 }
+
+
+/**Matar proceso de autoscrolling */
+$('.carousel').carousel({
+  interval: false,
+});
+/** */
